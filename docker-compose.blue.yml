@@ -1,0 +1,43 @@
+version: "3"
+services:
+  sdilink-web-backend-blue:
+    build: backend
+    container_name: sdilink-web-backend-blue
+    restart: always
+    environment:
+      TZ: "Asia/Seoul"
+      dataSource_url: ${dataSource_url}
+      dataSource_username: ${dataSource_username}
+      dataSource_password: ${dataSource_password}
+      redis_host: ${redis_host}
+      redis_port: ${redis_port}
+      redis_password: ${redis_password}
+      jwt_key: ${jwt_key}
+    ports:
+      - "8000:8000"
+    logging:
+      options:
+        max-file: "3"
+        max-size: "100m"
+    extra_hosts:
+      host.docker.internal: host-gateway
+    networks:
+      - blue
+
+  sdilink-web-frontend-blue:
+    build: frontend-ins
+    container_name: sdilink-web-frontend-blue
+    restart: always
+    environment:
+      - TZ=Asia/Seoul
+    ports:
+      - '3000:3000'
+    logging:
+      options:
+        max-file: "3"
+        max-size: "100m"
+    networks:
+      - blue
+
+networks:
+  blue:

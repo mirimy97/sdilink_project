@@ -1,0 +1,123 @@
+.hex-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bbbbbb30;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.hex-row {
+  display: flex;
+  width: fit-content;
+}
+
+.normal {
+  position: relative;
+  width: 53px;
+  height: 30px;
+  background-color: #d9eaff;
+  margin-bottom: 24px;
+  margin-right: 5px;
+}
+
+.normal:before,
+.normal:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+}
+
+.normal:before {
+  bottom: 100%;
+  border-bottom: 18px solid #d9eaff;
+}
+
+.normal:after {
+  top: 100%;
+  width: 0;
+  border-top: 18px solid #d9eaff;
+}
+
+/* 이상치 색상 변경 */
+.outlier {
+  position: relative;
+  width: 53px;
+  height: 30px;
+  background-color: #f1cfcf;
+  margin-bottom: 24px;
+  margin-right: 5px;
+}
+
+.outlier:before,
+.outlier:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+}
+
+.outlier:before {
+  bottom: 100%;
+  border-bottom: 18px solid #f1cfcf;
+}
+
+.outlier:after {
+  top: 100%;
+  width: 0;
+  border-top: 18px solid #f1cfcf;
+}
+
+.middle {
+  margin-left: 56px;
+}
+
+.moduleInfo {
+  color: #bbbbbb;
+  font-size: 13px;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.moduleNum {
+  color: white;
+  margin-bottom: 25px;
+  margin-right: 150px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 충전중일때는 isnormal -10 */
+.charging {
+  position: relative;
+  width: 53px;
+  height: 30px;
+  background-color: #d9ffdb;
+  margin-bottom: 24px;
+  margin-right: 5px;
+}
+
+.charging:before,
+.charging:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+}
+
+.charging:before {
+  bottom: 100%;
+  border-bottom: 18px solid #d9ffdb;
+}
+
+.charging:after {
+  top: 100%;
+  width: 0;
+  border-top: 18px solid #d9ffdb;
+}

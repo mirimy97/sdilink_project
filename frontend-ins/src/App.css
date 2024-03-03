@@ -1,0 +1,11 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: #181818;
+  margin: 0;
+}
+
+div,
+span {
+  cursor: default;
+}

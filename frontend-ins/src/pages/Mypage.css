@@ -1,0 +1,24 @@
+.mainTitle {
+  color: #167bff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px; /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10%; /* 스크롤바의 길이 */
+  background: #167bff; /* 스크롤바의 색상 */
+
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-track {
+  background: #bbbbbb; /*스크롤바 뒷 배경 색상*/
+  border-radius: 10px;
+}

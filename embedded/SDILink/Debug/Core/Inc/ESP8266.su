@@ -1,0 +1,5 @@
+ESP8266.cpp:9:1:ESP8266::ESP8266()	16	static
+ESP8266.cpp:17:1:ESP8266::ESP8266(UART_HandleTypeDef*)	16	static
+ESP8266.cpp:25:1:ESP8266::~ESP8266()	16	static
+ESP8266.cpp:25:1:virtual ESP8266::~ESP8266()	16	static
+ESP8266.cpp:29:6:bool ESP8266::Send(char*)	24	static

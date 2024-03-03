@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SDILink",
+    "slug": "frontend-user",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sdicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F5F6"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ssafy.sdilink",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3395f4e0-111c-49f2-afa6-f3d562ef1519"
+      }
+    }
+  }
+}

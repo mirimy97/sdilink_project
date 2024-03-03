@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285784126807",
+    "project_id": "sdilink-153d1",
+    "storage_bucket": "sdilink-153d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285784126807:android:9af394c087b7cdd1db3a12",
+        "android_client_info": {
+          "package_name": "com.ssafy.sdilink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285784126807-7nvcpvcvei5ljj0gdknmvdbhcq89ms2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.sdilink",
+            "certificate_hash": "459cfebd0a34fc970794b7077f6add7851de9f89"
+          }
+        },
+        {
+          "client_id": "285784126807-38p6v6afa1u4fmna0fiqunsnruqnfj2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2LHH01ohnsFNn0Tv1Q9Ahb6NJok2VaX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285784126807-38p6v6afa1u4fmna0fiqunsnruqnfj2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+.IconDiv {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+  /* margin: auto; */
+  margin-left: 10px;
+}
+
+.IconDiv:hover {
+  cursor: pointer;
+  /* border-right: 4px solid #167bff; */
+  color: #167bff;
+  /* background-color: #1428a060; */
+}
+
+.selectedIcon {
+  cursor: pointer;
+  border-right: 4px solid #167bff;
+  color: #167bff;
+}
+
+.IconMargin {
+  margin-right: 5px;
+}
+
+.back:hover {
+  cursor: pointer;
+  /* background-color: #1428a060; */
+  color: #167bff;
+}
